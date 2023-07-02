@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #3a86ff;
+    font-size: 25px;
+    margin: auto;
+}
+
+h1 {
+    color: #ffdd57;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container {
+    box-shadow: 5px 5px 5px 5px rgb(36, 36, 36);
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box_1 input {
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    outline: none;
+}
+
+.genero input {
+    width: 20px;
+    height: 20px;
+}
+
+.sexo {
+    padding: 15px;
+}
+
+.box_1 {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn input {
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.mensagem {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.content_1 {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+img {
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(184, 183, 183);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    color: #ffffff;
+}

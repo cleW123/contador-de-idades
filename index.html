@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="box_1">
+                <label for="ano nascimento">Ano de Nascimento
+                    <input type="number" id="txtano">
+                </label>
+            </div>
+            <div></div>
+            <div class="sexo">
+                <fieldset>
+                    <legend>sexo:
+                        <label for="mas">
+                            <input id="mas" type="radio" name="radsex" checked>masculino
+                        </label>
+                        <label for="fem">
+                            <input id="fem" type="radio"  name="radsex">feminino
+                        </label>
+                    </legend>
+                </fieldset>
+            </div>
+
+
+            <div class="btn">
+                <input type="button" value="verificar" onclick="verificar()">
+            </div>
+
+
+            <div class="mensagem" id="res">Preencha os dados acima para ver o resultado!</div>
+
+            <div id="img" class="content_1"></div>
+
+        </section>
+    </main>
+    <footer>&copy; matyas kauan da silva</footer>
+    <script src="script.js"></script>
+</body>
+</html>
